@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		485A029A2603B4C200DAD5C6 /* mostrarDatosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A02992603B4C200DAD5C6 /* mostrarDatosViewController.swift */; };
 		48EB2884260259940064DED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB2883260259940064DED2 /* AppDelegate.swift */; };
 		48EB2886260259940064DED2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB2885260259940064DED2 /* SceneDelegate.swift */; };
 		48EB2888260259940064DED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB2887260259940064DED2 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		485A02992603B4C200DAD5C6 /* mostrarDatosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mostrarDatosViewController.swift; sourceTree = "<group>"; };
 		48EB2880260259940064DED2 /* palculadoraPropinas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = palculadoraPropinas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48EB2883260259940064DED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48EB2885260259940064DED2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				48EB288C260259960064DED2 /* Assets.xcassets */,
 				48EB288E260259960064DED2 /* LaunchScreen.storyboard */,
 				48EB2891260259960064DED2 /* Info.plist */,
+				485A02992603B4C200DAD5C6 /* mostrarDatosViewController.swift */,
 			);
 			path = palculadoraPropinas;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				48EB2888260259940064DED2 /* ViewController.swift in Sources */,
 				48EB2884260259940064DED2 /* AppDelegate.swift in Sources */,
+				485A029A2603B4C200DAD5C6 /* mostrarDatosViewController.swift in Sources */,
 				48EB2886260259940064DED2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
