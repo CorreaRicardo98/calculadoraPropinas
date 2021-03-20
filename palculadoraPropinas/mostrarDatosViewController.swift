@@ -9,17 +9,26 @@ import UIKit
 
 class mostrarDatosViewController: UIViewController {
     
-    var datoDinero:Double?
-    var datoPorcentaje:Int?
-    var datoPersonas:Int?
-    var porPersona:Float?
-    var porcentaje:Float?
+    var datoDinero:Double!
+    var datoPorcentaje:Double!
+    var datoPersonas:Double!
+    var porPersona:Double!
+    var porcentaje:Double!
+    
+    var porcentajeReal:Double!
+    var cuenta:Double!
+    var total:Double!
+    
     
     @IBOutlet weak var DineroPorPersona: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        DineroPorPersona.text = String(datoDinero ?? 0)
+        porcentajeReal = datoPorcentaje/100
+        cuenta = datoDinero*porcentajeReal
+        total = datoDinero+cuenta
+        porPersona = total / datoPersonas
+        DineroPorPersona.text = String(porPersona)
     }
     
 

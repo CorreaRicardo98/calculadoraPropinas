@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 }
     
     @IBAction func ChangePOrcentAction(_ sender: UISlider) {
-        TextPorcentaje.text = "El porcentaje de propina es: "+String(sender.value)+"%"
+        TextPorcentaje.text = "El porcentaje de propina es: "+String(Int(sender.value))+"%"
     }
     
     @IBAction func ChangeNumPersonas(_ sender: UISlider) {
@@ -44,6 +44,8 @@ class ViewController: UIViewController {
             let ObjVC = segue.destination as! mostrarDatosViewController
             
             ObjVC.datoDinero = Double(datoDineroCuenta.text ?? "0")
+            ObjVC.datoPersonas = Double(Int(DatosPersonas.value))
+            ObjVC.datoPorcentaje = Double(Int(DatosPorcentaje.value))
             
         }
     }
