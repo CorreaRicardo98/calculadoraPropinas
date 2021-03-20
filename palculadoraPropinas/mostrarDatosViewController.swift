@@ -9,17 +9,17 @@ import UIKit
 
 class mostrarDatosViewController: UIViewController {
     
-    var datoDinero:Int?
+    var datoDinero:Double?
     var datoPorcentaje:Int?
     var datoPersonas:Int?
     var porPersona:Float?
     var porcentaje:Float?
     
-
+    @IBOutlet weak var DineroPorPersona: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        DineroPorPersona.text = String(datoDinero ?? 0)
     }
     
 

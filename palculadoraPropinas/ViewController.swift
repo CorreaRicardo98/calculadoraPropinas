@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var TextNUmPersonas: UITextField!
     @IBOutlet weak var DatosPorcentaje: UISlider!
     @IBOutlet weak var DatosPersonas: UISlider!
+    @IBOutlet weak var datoDineroCuenta: UITextField!
     
     var currentPorcentaje:Float!
     var currentPeople:Int!
@@ -42,7 +43,7 @@ class ViewController: UIViewController {
         if segue.identifier == "DatosSender" {
             let ObjVC = segue.destination as! mostrarDatosViewController
             
-            ObjVC.datoDinero = Int()
+            ObjVC.datoDinero = Double(datoDineroCuenta.text ?? "0")
             
         }
     }

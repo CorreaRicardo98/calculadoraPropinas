@@ -104,6 +104,7 @@
                         <outlet property="DatosPorcentaje" destination="D87-4E-neV" id="BDL-EU-QLo"/>
                         <outlet property="TextNUmPersonas" destination="pQ7-6K-DVf" id="26Z-el-WKu"/>
                         <outlet property="TextPorcentaje" destination="AtV-1O-hm4" id="u6N-LD-CTo"/>
+                        <outlet property="datoDineroCuenta" destination="Dhp-BS-F77" id="Z6F-UD-aDR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -181,6 +182,9 @@
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="ntP-U9-uNt"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="DineroPorPersona" destination="qQ5-vg-Vyd" id="sJx-dK-FBd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yic-eZ-l2u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
